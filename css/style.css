@@ -348,6 +348,7 @@ body {
 
     .menu-button-active {
         height: 0;
+        z-index: 9999;
     }
 
     .menu-button-active:before {
@@ -369,6 +370,7 @@ body {
         right: 0;
         top: 0;
         background-color: #9D2929;
+        z-index: 999;
     }
 
     .header-active {
